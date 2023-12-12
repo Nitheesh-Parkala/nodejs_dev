@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "npm init\r https://github.com/Nitheesh-Parkala/nodejs_dev.git",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitheesh-Parkala/Nodejs_dev.git"
+  },
+  "author": "Nitheesh prabhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitheesh-Parkala/Nodejs_dev/issues"
+  },
+  "homepage": "https://github.com/Nitheesh-Parkala/Nodejs_dev#readme",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
