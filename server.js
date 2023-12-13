@@ -10,15 +10,15 @@ http.createServer((req,res)=>{
     // console.log(method,url);
 
     //url(validation)
-   if(url=="/todos"){
+   if(url ==="/todos"){
       //method (validation)
-      if(method=="GET"){
-  console.log("todos route, and it is a get method")
-   res.writeHead(200);
-    res.write(toDoList.toString())  // here we should convert array into string other wise server will not work and nodemon will crash
+      if(method ==="GET"){
+      console.log("todos route, and it is a get method")
+      res.writeHead(200);
+      res.write(toDoList.toString())  // here we should convert array into string other wise server will not work and nodemon will crash
       }
-   }else if(url=="/"){
-console.log("/ home default route")
+   } else if(url ==="/"){
+         console.log("/ home default route")
    }
    res.end();
 })
