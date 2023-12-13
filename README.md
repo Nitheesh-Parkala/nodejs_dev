@@ -17,3 +17,6 @@ nmp i nodemon( without killing the server we are installing nodemon)
  >> DELETE: Deleting data from server
  >>PATCH: Updating certain field.
  >>PUT: Updating multiple thing.
+
+ postMan Appln(s/w)
+ Thunder client(extension -vs code)
