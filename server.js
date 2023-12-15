@@ -1,7 +1,9 @@
-const express = require("express");
+// const http = require(http);
+const express = require("express"); //here we are importing express rather then http.
 
 //initialization application
 const app = express();
+
 //application will now use only json data format.
 app.use(express.json());
 
