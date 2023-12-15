@@ -42,12 +42,17 @@ http.createServer((req,res)=>{
          body= JSON.parse(body);
         let deleteThis = body.item;
 
-        for(let i=0; i<toDoList.length; i++){
-         if(toDoList[i]===deleteThis){
-            toDoList.splice(i,1);
-            break;
+      //   for(let i=0; i<toDoList.length; i++){
+      //    if(toDoList[i]===deleteThis){
+      //       toDoList.splice(i,1);
+      //       break;
+      //    }
+      //   }
+      toDoList.find((elem,index)=>{
+         if(elem===deleteThis){
+            toDoList.splice(index,1)
          }
-        }
+      })
     })
    }
  }
